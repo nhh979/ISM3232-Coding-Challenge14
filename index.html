@@ -1,3 +1,5 @@
+<!--Hoang Nguyen
+    U12840485 -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,7 +7,33 @@
     <title>Simple Financial Calculator Using ES6 Modules</title>
 </head>
 <body>
-    
+    <h1>Financial Calculator</h1>
+    <div>
+        <h2>Interest Rate Calculation</h2>
+        <input type="number" id="originalPrincipal" placeholder="Principal ($)">
+        <input type="number" id="annualInterestRate" placeholder="Interest Rate (%)">
+        <input type="number" id="interestTime" placeholder="Time (years)">
+        <button id="calculateInterest">Calculate Interest</button>
+        <div id="interestResult"></div>
+    </div>
+
+    <div>
+        <h2>Monthly Loan Payment Calculation</h2>
+        <input type="number" id="loanPrincipal" placeholder="Loan Principal ($)">
+        <input type="number" id="monthlyLoanInterestRate" placeholder="Monthly Interest Rate (%)">
+        <input type="number" id="loanTime" placeholder="Time (years)">
+        <button id="calculateMonthlyLoanPayment">Calculate Monthly Loan Payment</button>
+        <div id="loanResult"></div>
+    </div>
+
+    <div>
+        <h2>Investment Return Calculation with Monthly Compounding</h2>
+        <input type="number" id="investmentPrincipal" placeholder="Investment Principal ($)">
+        <input type="number" id="annualInvestmentInterestRate" placeholder="Annual Interest Rate (%)">
+        <input type="number" id="investmentTime" placeholder="Time (years)">
+        <button id="calculateInvestmentReturn">Calculate Monthly Loan Payment</button>
+        <div id="investmentResult"></div>
+    </div>
     <script src="./modules/main.js" type="module"></script>
 </body>
 </html>
