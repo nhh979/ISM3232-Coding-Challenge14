@@ -1,7 +1,8 @@
-export function calculateInvestmentReturn(P, r, n, t) {
+export function calculateInvestmentReturn(P, R, n, t) {
+    const r = R/100; //decimal rate
     return P * (1 + r/n)**(n * t)
 }
 //where P is the original principal sum
-// r is the annual interest rate 
-// n is the compounding frequency (number of months)
+// Ris the annual interest rate as percent
+// n is the compounding frequency per year 
 // t is the overall length of time (in year)
