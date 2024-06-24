@@ -1,0 +1,3 @@
+# Coding Challenge 14
+
+In this project, we aim to create a simple financial calculator using `ES6 modules` in **JavaScrip**. This calculator will handle essential financial computations like `interest rate`, `monthly loan payment`, and `investment return`. We create each computation type in its own separate module to improve organization and performance. Moreover, we create a user interface with input fiels and buttons to execute the calculations.
